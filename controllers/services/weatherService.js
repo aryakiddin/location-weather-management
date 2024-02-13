@@ -44,7 +44,7 @@ const getWeatherForecast = async (req, res) => {
       throw new Error('Failed to fetch weather data: ' + response.statusText);
     }
   } catch (error) {
-    console.log(error)
+   // console.log(error)
     logger.error('Failed to fetch weather forecast data from external API', { error: error.message });
     if (error.code === "ERR_BAD_REQUEST") {
       return res.status(400).json({ error: `${error.response.data.error.message} Please check and update the latitude and longitude to a correct one` });
@@ -109,7 +109,7 @@ const getWeatherHistory = async (req, res) => {
     }
 
   } catch (error) {
-    console.log(error)
+   // console.log(error)
     logger.error('Failed to fetch weather forecast data from external API', { error: error.message });
     if (error.code === "ERR_BAD_REQUEST") {
       return res.status(400).json({ error: `${error.response.data.error.message} Please check and update the latitude and longitude to a correct one` });

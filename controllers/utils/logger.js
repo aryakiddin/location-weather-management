@@ -1,6 +1,6 @@
 const { createLogger, format, transports } = require('winston');
 
-// Define the logger configuration
+
 const logger = createLogger({
   level: 'info',
   format: format.combine(

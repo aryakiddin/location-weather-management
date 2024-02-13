@@ -13,7 +13,7 @@ const addLocation = (req, res) => {
   }
   const newLocation = { id: locations.length + 1, name, latitude, longitude };
   locations.push(newLocation);
-  return res.status(201).json(newLocation);
+  return res.status(200).json(newLocation);
 };
 
 const getLocationById = (req, res) => {
@@ -51,7 +51,7 @@ const deleteLocation = (req, res) => {
 
   // Delete the location from the locations array
   locations.splice(locationIndex, 1);
-  return res.json({ message: 'Location deleted successfully' });
+  return res.status(200).json({ message: 'Location deleted successfully' });
 };
 
 
