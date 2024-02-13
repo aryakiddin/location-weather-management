@@ -1,0 +1,42 @@
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 18:06:13"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 18:06:14"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 18:23:59"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 18:24:00"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 18:25:01"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 18:25:01"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 18:27:20"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 18:27:21"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 18:27:26"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 18:27:27"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 18:28:34"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 18:28:34"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 18:28:41"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 18:28:41"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 18:59:42"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:00:07"}
+{"error":"Request failed with status code 403","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:00:08"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:01:45"}
+{"error":"Request failed with status code 403","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:01:45"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:11:16"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 19:11:17"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:12:29"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 19:12:29"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:24:23"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 19:24:23"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:25:11"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:25:12"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:25:42"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 19:25:42"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:27:02"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:27:02"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:28:22"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 19:28:22"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:28:33"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:28:34"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:40:37"}
+{"level":"info","message":"Weather forecast data from https://api.weatherapi.com fetched successfully","timestamp":"2024-02-13 19:40:37"}
+{"level":"info","message":"Fetching weather forecast data from external API","timestamp":"2024-02-13 19:40:48"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:40:49"}
+{"level":"info","message":"Server is up and running successfully on port 3000","timestamp":"2024-02-13 20:01:27"}
+{"level":"info","message":"Server is up and running successfully on port 3000","timestamp":"2024-02-13 20:04:20"}
+{"level":"info","message":"Server is up and running successfully on port 3000","timestamp":"2024-02-13 20:04:43"}

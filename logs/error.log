@@ -1,0 +1,10 @@
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 18:25:01"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 18:27:21"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 18:28:34"}
+{"error":"API_KEY is not defined","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 18:59:42"}
+{"error":"Request failed with status code 403","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:00:08"}
+{"error":"Request failed with status code 403","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:01:45"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:25:12"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:27:02"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:28:34"}
+{"error":"Request failed with status code 400","level":"error","message":"Failed to fetch weather forecast data from external API","timestamp":"2024-02-13 19:40:49"}
