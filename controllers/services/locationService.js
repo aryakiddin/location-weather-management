@@ -32,7 +32,7 @@ const updateLocation = (req, res) => {
   const locationIndex = locations.findIndex(loc => loc.id === parseInt(id));
   if (locationIndex !== -1) {
     locations[locationIndex] = { ...locations[locationIndex], name, latitude, longitude };
-    const cacheKey = `weather_forecast_${id}` || `weather_history_${id}_${days || '7'}`;
+    const cacheKey = `weather_forecast_${id}` || `weather_history_${id}}`;
     weatherCache.del(cacheKey); ///clearing cache of existing location because latitude and longitude may have been updated
     return res.status(200).json(locations[locationIndex]);
   } else {

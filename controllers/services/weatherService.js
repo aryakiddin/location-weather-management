@@ -5,7 +5,7 @@ require('dotenv').config();
 const moment = require("moment")
 const { locations } = require("../services/locationService");
 const { weatherCache } = require("../utils/weatherCache");
-const logger = require('../utils/logger');
+const logger = require("../utils/logger");
 
 //const API_KEY = "c66e3ede31214244935133250241202";  //uncomment this while running without env
 const API_KEY = process.env.API_KEY //comment this while running 
@@ -38,19 +38,17 @@ const getWeatherForecast = async (req, res) => {
       };
       weatherCache.set(`weather_forecast_${id}`, forecast); /// setting in cache with id
       
-      logger.info('Weather forecast data from https://api.weatherapi.com fetched successfully');
+      logger.info("Weather forecast data from https://api.weatherapi.com fetched successfully");
       return res.status(200).json(forecast);
     } else {
-      throw new Error('Failed to fetch weather data: ' + response.statusText);
+      throw new Error("Failed to fetch weather data: " + response.statusText);
     }
   } catch (error) {
-   // console.log(error)
-    logger.error('Failed to fetch weather forecast data from external API', { error: error.message });
-    if (error.code === "ERR_BAD_REQUEST") {
-      return res.status(400).json({ error: `${error.response.data.error.message} Please check and update the latitude and longitude to a correct one` });
-    } else {
-      return res.status(500).json({ error: `${error.response.data.error.message}` })
-    }
+    console.log(JSON.stringify(error))
+    logger.error("Failed to fetch weather forecast data from external API", { error: error.message });
+    //if (error.code === "ERR_BAD_REQUEST") {
+      return res.status(400).json({ error: `${error.response.data.error.message}` });
+  //  } 
   }
 };
 
@@ -72,10 +70,10 @@ const getWeatherHistory = async (req, res) => {
     const { latitude, longitude } = location;
 
     let startDate;
-    if (days && ['7', '15', '30'].includes(days)) {
-      startDate = moment().subtract(parseInt(days), 'days');
+    if (days && ["7", "15", "30"].includes(days)) {
+      startDate = moment().subtract(parseInt(days), "days");
     } else {
-      startDate = moment().subtract(7, 'days');
+      startDate = moment().subtract(7, "days");
     }
     const previousDate = moment().subtract(1, "days");
 
@@ -105,17 +103,15 @@ const getWeatherHistory = async (req, res) => {
       logger.info('Weather forecast data from https://api.weatherapi.com fetched successfully');
       return res.status(200).json(forecast);
     } else {
-      throw new Error('Failed to fetch weather data: ' + response.statusText);
+      throw new Error("Failed to fetch weather data: " + response.statusText);
     }
 
   } catch (error) {
    // console.log(error)
     logger.error('Failed to fetch weather forecast data from external API', { error: error.message });
-    if (error.code === "ERR_BAD_REQUEST") {
-      return res.status(400).json({ error: `${error.response.data.error.message} Please check and update the latitude and longitude to a correct one` });
-    } else {
-      return res.status(500).json({ error: `${error.response.data.error.message}` })
-    }
+   // if (error.code === "ERR_BAD_REQUEST") {
+      return res.status(400).json({ error: `${error.response.data.error.message}` });
+ //   } 
   }
 };
 
