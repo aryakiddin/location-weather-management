@@ -3,8 +3,29 @@ const { weatherCache } = require("../utils/weatherCache");
 let locations = [];
 
 const getAllLocations = (req, res) => {
-  res.json(locations);
+  res.json({"msg":"Hello sam"});
 };
+
+const login = (req, res) => {
+  return res.json({
+    "access_token": {
+        "aud": "http://api.example.com",
+        "iss": "https://krakend.io",
+        "sub": "1234567890qwertyuio",
+        "jti": "mnb23vcsrt756yuiomnbvcx98ertyuiop",
+        "roles": ["user", "admin"],
+        "exp": 1735689600
+    },
+    "refresh_token": {
+        "aud": "http://api.example.com",
+        "iss": "https://krakend.io",
+        "sub": "1234567890qwertyuio",
+        "jti": "mnb23vcsrt756yuiomn12876bvcx98ertyuiop",
+        "exp": 1735689600
+    },
+    "exp": 1735689600
+})
+}
 
 const addLocation = (req, res) => {
   const { name, latitude, longitude } = req.body;
@@ -61,5 +82,6 @@ module.exports = {
   getLocationById,
   updateLocation,
   deleteLocation, 
-  locations
+  locations,
+  login
 };

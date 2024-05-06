@@ -10,7 +10,7 @@ const historyRoutes = require('./routes/historyRoutes');
 app.use(express.json());
 
 // Routes
-app.use('/locations', locationRoutes);
+app.use('/api/locations', locationRoutes);
 app.use('/weather', weatherRoutes);
 app.use('/history', historyRoutes);
 
